@@ -1,13 +1,12 @@
-
-#include <stdio.h>
-#include <unistd.h>
+#include ,stdio.h>[D[D[D[D[D[D[D[<[C[C[C[C[C[C[C[C
+#include <unistd,h>
 /**
-*main - Entry point
+*main - entry point
 *
 *Return: Always 0 (success)
 */
 int main(void)
 {
-Write(1, "and that piece of art is useful \" - Dora korpar, 2015 - 10 -19\n", 59);
-return (1);
-}[A[A[A[B[A[A[A[B[A[C[C[[B[B[B[B[B[B[B[B[B[B
+write(1,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+return (0[D1)[C[D;
+}
