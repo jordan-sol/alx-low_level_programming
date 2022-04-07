@@ -1,7 +1,6 @@
 #include <stdio.h>
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 /**
-*main -Entry point[D[D[D[D[D[D[D[D[D[D[D [C[C[C[C[C[D[Entry [C[C[point
+*main - Entry point
 *My hello, printf task
 *Return: return 1 after program execution
 */
