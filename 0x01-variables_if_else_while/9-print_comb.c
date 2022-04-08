@@ -10,11 +10,11 @@ int number;
 for (number = 40; number <= 57; number++)
 {
 putchar(number);
-
-if (number == 57)
 }
-break;
+if (number == 57)
 {
+break;
+
 putchar (',');
 putchar (' ');
 }
