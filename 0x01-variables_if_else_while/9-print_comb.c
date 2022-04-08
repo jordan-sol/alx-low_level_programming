@@ -11,7 +11,7 @@ for (number = 40; number <= 57; number++)
 {
 putchar(number);
 }
-if (number = = 57)
+if (number == 57)
 {
 break;
 {
