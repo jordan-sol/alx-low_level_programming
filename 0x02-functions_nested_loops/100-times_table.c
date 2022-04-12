@@ -5,9 +5,10 @@
  *                     starting with 0.
  * @n: The value of the times table to be printed.
  */
+void print_times_table(int num, int mult, int prod);
 void print_times_table(int n)
 {
-	int num, mult, prod;
+	// int num, mult, prod;
 
 	if (n >= 0 && n <= 15)
 	{
