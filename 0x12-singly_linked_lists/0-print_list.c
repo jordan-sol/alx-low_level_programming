@@ -1,23 +1,26 @@
-#include "list.h"
+#include "lists.h"
 
 /**
- * print_list - prints all the elements of a list_t list.
- * @h: pointer to the list.
- * Return: number of nodes.
- **/
+  * print_list - fills memory with a constant byte
+  * @h: is the owner of the dog
+  * Return: a number
+  */
 size_t print_list(const list_t *h)
 {
-	size_t cont = 0;
+	size_t i;
 
-	while (h)
+	for (i = 0; h != NULL; i++)
 	{
-		if (h->str)
-			printf("[%u] %s\n", h->len, h->str);
+		if (h->str != NULL)
+		{
+			printf("[%d] %s\n", h->len, h->str);
+			h = h->next;
+		}
 		else
-			printf("[0] (nil)\n");
-		cont++;
-		h = h->next;
+		{
+			printf("[%d] %s\n", 0, "(nil)");
+			h = h->next;
+		}
 	}
-
-	return (cont);
+	return (i);
 }
